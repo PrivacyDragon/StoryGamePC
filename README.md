@@ -11,3 +11,4 @@ StoryGameCE ported to the computer
 ### For Windows:
 * Download and extract the latest release
 * Double-click the .exe file
+* Ignore the stuff that will show in a cmd window
