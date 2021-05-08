@@ -327,6 +327,7 @@ static int main (string[] args) {
         var home = Environment.get_variable("HOME");
         var desktopfile = File.new_for_path(@"$home/.local/share/applications/StorygamePC.desktop");
         if (!desktopfile.query_exists()) {
+            Posix.system(@"mkdir $home/.local/bin");
             Posix.system(@"mkdir $home/.local/share/applications");
             var desktop_file = FileStream.open(@"$home/.local/share/applications/StorygamePC.desktop", "w");
             print(@"$home/.local/share/applications/StorygamePC.desktop");
