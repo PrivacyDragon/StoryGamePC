@@ -19,6 +19,8 @@ static const string words[] =
 };
 const int32 num_words = words.length;
 
+// ToDo: Add a way of selecting words and such that is more like the way I do it in the CE version. And add audio things.
+
 static const string icon_xpm[] = {
 "16 16 107 2",
 "  	c #D7AF8C",
